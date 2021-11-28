@@ -1,4 +1,5 @@
-package anagram;
+package anagram.example1;
+
 import java.util.Scanner;
 public class Main {
 
@@ -18,7 +19,7 @@ public class Main {
                     System.out.println("Your text: " + inputText);
 
                     Revers reverse = new Revers();
-                    reverse.anagram(letters);
+ //                   reverse.anagram(letters);
 
                     String textAfterAnagram = new String(letters);
                     System.out.println("anagram: " + textAfterAnagram);
