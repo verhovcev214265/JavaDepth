@@ -26,13 +26,12 @@ public class Anagram {
 
     public String separateWords(String input) {
 
-        String[] inputWords = input.split(" ");
+        String[] words = input.split(" ");
 
-        for (int i = 0; i < inputWords.length; i++) {
-            Anagram anagram = new Anagram();
-            inputWords[i] = anagram.revers(inputWords[i]);
+        for (int i = 0; i < words.length; i++) {
+            revers(words[i]);
         }
-        return String.join(" ", inputWords);
+        return String.join(" ", words);
     }
 
 }
