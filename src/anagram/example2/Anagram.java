@@ -2,7 +2,6 @@ package anagram.example2;
 public class Anagram {
 
     public String revers(String input) {
-
         char[] letters = input.toCharArray();
 
         int start = 0;
@@ -25,7 +24,6 @@ public class Anagram {
     }
 
     public String separateWords(String input) {
-
         String[] words = input.split(" ");
 
         for (int i = 0; i < words.length; i++) {
@@ -33,6 +31,5 @@ public class Anagram {
         }
         return String.join(" ", words);
     }
-
 }
 
